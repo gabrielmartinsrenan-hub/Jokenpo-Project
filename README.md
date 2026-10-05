@@ -1,42 +1,42 @@
-JokenPô — Pedra, Papel e Tesoura
+JokenPô — Rock, Paper and Scissors
 
-Um jogo de Pedra, Papel e Tesoura (Jokenpô) contra a máquina, com placar de pontuação, design moderno com efeito glassmorphism e interface totalmente interativa.
+A Rock, Paper, Scissors (Jokenpô) game against the computer, featuring a live scoreboard, a modern glassmorphism design, and a fully interactive interface.
 
 Mostrar Imagem
 
-✨ Funcionalidades
-Três opções de jogada: Pedra 👊, Papel 🖐️, Tesoura ✌️
-Oponente automático (Alexa): a máquina escolhe uma jogada aleatória a cada rodada
-Lógica completa de vitória/derrota/empate, usando as regras clássicas do jogo
-Placar em tempo real, mostrando a pontuação do jogador e da máquina separadamente
-Mensagem de resultado dinâmica a cada rodada ("Você ganhou!", "Você perdeu!", "Empate!")
-Visual moderno com fundo em gradiente e cartão com efeito vidro (glassmorphism)
-Botões animados, com efeito de elevação e escala ao passar o mouse
-🛠️ Tecnologias utilizadas
+✨ Features
+Three move options: Rock 👊, Paper 🖐️, Scissors ✌️
+Automatic opponent (Alexa): the computer picks a random move each round
+Full win/loss/draw logic, following the classic rules of the game
+Real-time scoreboard, tracking player and computer scores separately
+Dynamic result message after each round ("You won!", "You lost!", "Draw!")
+Modern visual style with a gradient background and a glassmorphism card
+Animated buttons, with a lift and scale effect on hover
+🛠️ Built With
 HTML5
-CSS3 (glassmorphism, transições e animações)
-JavaScript (lógica de jogo, manipulação do DOM)
-🚀 Como executar
-Clone o repositório:
+CSS3 (glassmorphism, transitions and animations)
+JavaScript (game logic, DOM manipulation)
+🚀 Getting Started
+Clone the repository:
 bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-Entre na pasta do projeto:
+   git clone https://github.com/your-username/your-repo-name.git
+Open the project folder:
 bash
-   cd seu-repositorio
-Abra o index.html no navegador, ou rode com uma extensão de live server (ex: Live Server no VS Code).
-📂 Estrutura do projeto
+   cd your-repo-name
+Open index.html in your browser, or run it with a live server extension (e.g. Live Server in VS Code).
+📂 Project Structure
 ├── index.html
 ├── styles.css
 └── script.js
-⚙️ Como funciona
-O jogador clica em um dos três botões (Pedra, Papel ou Tesoura).
-A função playHuman() dispara o jogo, chamando playAlexa(), que sorteia a jogada da máquina.
-A função playTheGame() compara as duas jogadas e define o resultado, atualizando o placar e a mensagem na tela.
-As opções de jogo são centralizadas no objeto GAME_OPTIONS, evitando erros de digitação nas comparações.
+⚙️ How It Works
+The player clicks one of the three buttons (Rock, Paper, or Scissors).
+The playHuman() function triggers the round, calling playAlexa(), which randomly picks the computer's move.
+The playTheGame() function compares both moves, determines the outcome, and updates the scoreboard and result message.
+Game options are centralized in the GAME_OPTIONS object, avoiding typos in comparisons.
 📸 Preview
 
-Adicione aqui um print real do seu projeto pra quem visitar o repositório ver sem precisar rodar o código.
+Add a real screenshot of your project here so visitors can see it without running the code.
 
-📄 Licença
+📄 License
 
-Este projeto é open source, disponível sob a licença MIT.
+This project is open source and available under the MIT License.
